@@ -1,0 +1,267 @@
+.Roadmap {
+    background: #83fd6c;
+}
+
+.Roadmap .Roadmapwave img {
+    width: 100%;
+    background: #83fd6c;
+}
+
+.Roadmap .Roadmap-main {
+    background-image: linear-gradient(#91c446, #245724);
+}
+.road-title {
+    text-align: center;
+    color: #1E5631;
+    background-position: 0;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-main-body-title h4 {
+    font-size: 40px;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    color: #fff;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+    text-align: center;
+}
+
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-main-body-title h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-map img {
+    width: 100%;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phase  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phase:last-child .Roadmap-phase-text h5,
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phase:last-child .Roadmap-phase-text h4 {
+    display: inline-block;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phase:last-child .Roadmap-phase-text h4 {
+    font-size: 40px;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phase:last-child .Roadmap-phase-text h4 span {
+    color: white;
+    font-weight: 900;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase div {
+    width: 40%;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text h6{
+    font-size: 30px;
+    font-weight: 900;
+    color: #a4de02;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text h5{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text p{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-image img {
+    width: 60%;
+}
+
+.Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase:nth-child(even) .Roadmap-phase-image {
+    text-align: right;
+}
+
+@media screen and (min-width:991px) {
+    .Roadmap-phases {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase:nth-child(odd) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vertical-timeline {
+        display: none;
+    }
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase div {
+        width: 100%;
+    }
+
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-image img {
+        width: 100%;
+    }
+
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text h6{
+        font-size: 20px;
+        font-weight: 900;
+        color: #a4de02;
+        margin-top: 30px;
+    }
+    
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text h5{
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+    }
+    
+    .Roadmap .Roadmap-main .Roadmap-main-body .Roadmap-phases .Roadmap-phase .Roadmap-phase-text p{
+        font-size: 15px;
+        font-weight: 200;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.Roadmap .Roadmap-main .vertical-timeline::before {
+    display: none;
+}
+.vertical-timeline-element--work {
+    height: 350px;
+    overflow: hidden;
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element-icon {
+    width: 1px;
+    height: 1px;
+    margin-left: 19px;
+    box-shadow: 0px 0px 0px 5px #49ebc4;
+    display: none
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element hr {
+    color: lightgray;
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element-content {
+    background: none;
+    box-shadow: 0 0 0 0;
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element-content-arrow {
+    display:none;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content h3,
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content p {
+    text-align: left;
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element-content h3 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #a4de02;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content p {
+    font-size: 20px;
+    color: white;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element:first-child {
+    display: none;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-image img{
+    height: 70%;
+}
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-image:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element--work:nth-child(even) .vertical-timeline-element-content .vertical-timeline-element-text {
+    position: relative;
+    /* left: 35%; */
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element--work:nth-child(2) .vertical-timeline-element-content .vertical-timeline-element-text {
+    position: relative;
+    /* left: 70%; */
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-text h5,
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-text span {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+}
+
+.Roadmap .Roadmap-main  .vertical-timeline .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-text h4 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.Roadmap .Roadmap-main-mobile .vertical-timeline .vertical-timeline-element-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: none;    
+    box-shadow: 0 0 0 0;
+}
+
+.Roadmap .Roadmap-main-mobile .vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+    display: none;
+}
+
+.Roadmap .Roadmap-main-mobile .vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-image > img {
+    width: 100%;
+}
+
+.Roadmap .Roadmap-main-mobile .vertical-timeline .vertical-timeline-element--work .vertical-timeline-element-icon {
+    width: 1px;
+    height: 1px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 0px 5px #49ebc4;
+}
+
+.Roadmap .Roadmap-main .vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-date {
+    left: 0;
+    top: 0;
+}

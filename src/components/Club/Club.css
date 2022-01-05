@@ -1,0 +1,75 @@
+.Club {
+    background: #83fe6c;
+    
+}
+
+.Club .Clubwave img {
+    width: 100%;
+    background: #83fd6c;
+}
+
+.Club .Club-main {
+    background-image: linear-gradient(#48ae48, #83fd6c);
+}
+
+.Club .Club-main .react-multi-carousel-list ul li div img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.Club .Club-main .Club-main-title h4 span {
+    font-size: 80px;
+    
+}
+
+.Club .Club-main .Club-main-title h4 {
+  text-align: center;
+  color: #1E5631;
+  background-position: 0;
+  -webkit-background-clip: text;
+  font-weight: 800;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
+.Club .Club-main .Club-main-title h4::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #f3f181, 0 0 10px #e69600, 0 0 10px #e68a00, 0 0 60px #e68200, 0 0 10px #e68200;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #eeea03, 0 0 10px #f3e307, 0 0 10px #f3ef0e, 0 0 10px #f0cf15, 0 0 10px #d1c40c, 0 0 10px #f1e311,0 0 10px #f1e311, 0 0 10px #f1e311;
+    }
+}
+.Club .Club-main .Club-main-title h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Club .Club-main .Club-main-title p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width:991px) {
+    
+}

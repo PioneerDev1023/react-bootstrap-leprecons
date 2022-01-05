@@ -1,0 +1,92 @@
+.About {
+    background: #96c746;
+}
+
+.About .Aboutwave img {
+    width: 100%;
+    background: #96c747;
+}
+
+.About .About-main {
+    background-image: linear-gradient(#1e5631, #84ff6d);
+}
+
+.About .About-main .About-main-body .About-main-text h4 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #A4DE02;
+    -webkit-background-clip: text;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+.About .About-main .About-main-body .About-main-text h4::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.About .About-main .About-main-body .About-main-text h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #f3f181, 0 0 10px #e69600, 0 0 10px #e68a00, 0 0 60px #e68200, 0 0 10px #e68200;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #eeea03, 0 0 10px #f3e307, 0 0 10px #f3ef0e, 0 0 10px #f0cf15, 0 0 10px #d1c40c, 0 0 10px #f1e311,0 0 10px #f1e311, 0 0 10px #f1e311;
+    }
+}
+
+.About .About-main .About-main-body .About-main-text p {
+    font-size: 20px;
+    color: white;
+}
+
+.About .About-main .About-main-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.About .About-main .About-main-body .About-main-text,
+.About .About-main .About-main-body .About-main-images {
+    width: 50%;
+}
+
+.About .About-main .About-main-body .About-main-images {
+    text-align: left;
+}
+
+.About .About-main .About-main-body .About-main-images .About-main-image img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:991px) {
+    .About .About-main .About-main-body {
+        display: block;
+    }
+
+    .About .About-main .About-main-body .About-main-text,
+    .About .About-main .About-main-body .About-main-images {
+        width: 100%;
+    }
+
+    .About .About-main .About-main-body .About-main-images .About-main-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}

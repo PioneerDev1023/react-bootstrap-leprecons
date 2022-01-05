@@ -1,0 +1,130 @@
+.Faqs {
+    background: #264e15;
+}
+
+.Faqs .Faqswave img {
+    width: 100%;
+    background: #264d15;
+}
+
+.Faqs .Faqs-main {
+    background-image: linear-gradient(#76ba1b, #3B5D0E);
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-title h4 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-background-clip: text;
+    color: #1E5631;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-title h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item {
+    background: none;
+    border:none
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-header button,
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-header .accordion-button:focus {
+    background: none;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-collapse {
+    font-size: 20px;
+    color: white;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-header button::after {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord h4 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-background-clip: text;
+    color: #A4DE02;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord h4::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord h3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord {
+    text-align: center;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord a{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    background: #1E5631;
+    border-radius: 50px;
+    padding: 0 30px;
+    border: none;
+    text-decoration: none;
+}
+
+.Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord a:hover {
+    background: white;
+    color: #1E5631;
+}
+
+@media screen and (max-width:991px) {
+    .Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-header button,
+    .Faqs .Faqs-main .Faqs-main-body .Faqs-main-accordion .accordion-item .accordion-header .accordion-button:focus {
+        background: none;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        border: none;
+        box-shadow: none;
+    }
+
+    .Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord h4 {
+        font-size: 30px;
+    }
+
+    .Faqs .Faqs-main .Faqs-main-body .Faqs-main-discord h3 {
+        font-size: 33px;
+    }
+}

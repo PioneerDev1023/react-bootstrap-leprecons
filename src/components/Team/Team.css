@@ -1,0 +1,108 @@
+.Team {
+    background: #245724;
+}
+.Team .Teamwave img {
+    width: 100%;
+    background: #245724;
+}
+
+.Team .Team-main {
+    background-image: linear-gradient(#4c9a2a, #264d15);
+}
+
+.Team .Team-main .Team-main-body .Team-main-title h4 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-background-clip: text;
+    color: #fff;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+.Team .Team-main .Team-main-body .Team-main-title h5 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-background-clip: text;
+    color: #A4DE02;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+.Team .Team-main .Team-main-body .Team-main-title h4::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 30px #f3f181, 0 0 10px #e69600, 0 0 20px #e68a00, 0 0 60px #e68200, 0 0 10px #e68200;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #eeea03, 0 0 10px #f3e307, 0 0 10px #f3ef0e, 0 0 10px #f0cf15, 0 0 10px #d1c40c, 0 0 10px #f1e311,0 0 10px #f1e311, 0 0 10px #f1e311;
+    }
+}
+
+.Team .Team-main .Team-main-body .Team-main-title h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members .Team-member {
+    width: 25%;
+    text-align: center;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members .Team-member img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members .Team-member h5 {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members .Team-member p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.Team .Team-main .Team-main-body .Team-main-members .Team-member a {
+    font-size: 20px;
+    color: #a4de02;
+}
+
+@media screen and (max-width:991px) {
+    .Team .Team-main .Team-main-body .Team-main-members {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Team .Team-main .Team-main-body .Team-main-members .Team-member {
+        width: 100%;
+        text-align: center;
+    }
+}

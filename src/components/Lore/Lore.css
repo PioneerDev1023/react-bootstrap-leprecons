@@ -1,0 +1,92 @@
+.Lore,
+.Lore .Lorewave img {
+    width: 100%;
+}
+
+.Lore .Lore-main {
+    background-image: linear-gradient(#4c9a2a, #97c847);
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text h4 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1e5631;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+.lore-text {
+    height: 429px;
+    overflow: hidden;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text h4::after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 1px #fff;
+    }
+    
+    to {
+      text-shadow: 0 0 1px #eeea03;
+    }
+}
+.Lore .Lore-main .Lore-main-body .Lore-main-text h3 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text p {
+    font-size: 20px;
+    color: white;
+}
+
+.Lore .Lore-main .Lore-main-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text,
+.Lore .Lore-main .Lore-main-body .Lore-main-images {
+    width: 50%;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-images {
+    display: flex;
+    text-align: right;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-images .Lore-main-image img {
+    width: 85%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .Lore .Lore-main .Lore-main-body {
+        display: block;
+    }
+
+    .Lore .Lore-main .Lore-main-body .Lore-main-text,
+    .Lore .Lore-main .Lore-main-body .Lore-main-images {
+        width: 100%;
+    }
+
+    .Lore .Lore-main .Lore-main-body .Lore-main-images .Lore-main-image img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,83 @@
+.Footer,
+.Footer .Footerwave img {
+    width: 100%;
+    background: #3b5d0e;
+}
+
+.Footer .Footer-main {
+    background-image: linear-gradient(#1E5631, black);
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-logo {
+    width: 50%;
+    margin: auto;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #f3f181, 0 0 10px #e69600, 0 0 10px #e68a00, 0 0 60px #e68200, 0 0 10px #e68200;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #eeea03, 0 0 10px #f3e307, 0 0 10px #f3ef0e, 0 0 10px #f0cf15, 0 0 10px #d1c40c, 0 0 10px #f1e311,0 0 10px #f1e311, 0 0 10px #f1e311;
+    }
+}
+.Footer .Footer-main .Footer-main-body .Footer-main-logo img {
+    width: 100%;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-community {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-community a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-community a svg {
+    font-size: 30px;
+    background: white;
+    color: #1e5631;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-infor {
+    text-align: center;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-infor p:first-child {
+    color: white;
+    font-size: 16px;
+}
+
+.Footer .Footer-main .Footer-main-body .Footer-main-infor p:last-child {
+    color: #A4DE02;
+    font-size: 16px;
+}
+.copyright {
+    overflow-wrap: anywhere;
+}
+
+
+@media screen and (max-width:991px) {
+    .Footer .Footer-main .Footer-main-body .Footer-main-logo {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .Footer .Footer-main .Footer-main-body .Footer-main-logo img {
+        width: 100%;
+    }
+
+    .Footer .Footer-main .Footer-main-body .Footer-main-community {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+}
